@@ -77,5 +77,32 @@ footer{
 h2{
     color:#EB5E28;
     margin-right: 3em;
-    font-size: 36px;
+    font-size: 45px;
+}
+
+.container-caixas{
+    display:flex;
+    padding: 0 3em 3em 3em;
+    gap: 5em;
+}
+
+.caixa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: #EB5E28 solid 1px;
+    border-radius: 57px;
+    padding: 1em;
+}
+
+
+/* top right bottom left*/
+.caixa p, h3, figure{
+    padding: 0.5em 0 0.5em 0;
+    
+}
+
+.caixa p{
+ 
+    width: 10em;
 }
