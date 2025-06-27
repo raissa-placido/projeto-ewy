@@ -1,6 +1,7 @@
 *{
     margin: 0 auto;
     font-family: sans-serif;
+    text-align:left;
 }
 
 h1{
@@ -10,6 +11,10 @@ h1{
 nav{
     margin:0 ;
     font-weight: bold;
+}
+
+.figure-inicial{
+    padding: 0;
 }
 
 header, footer{
@@ -44,13 +49,13 @@ a:hover{
 footer{
     display: flex;
     flex-direction: column;
-    padding: 2em 0 1em 0;
+    padding: 3em 0 1em 0;
     color:white;
     font-size: small;
 }
 
 .itens-footer{
-    padding: 2em 0 1em 0;
+    padding: 1em 0 1em 0;
 }
 
 .copyright{
@@ -59,13 +64,13 @@ footer{
 
 .container-pag-inicio{
     display: flex;
-    padding: 3em 3em 4em 3em;
+    padding: 3em 4em 2em 4em; /* top right bottom left*/
 
 }
 
 .container-pag-inicio p{
     line-height: 30px; 
-    text-align: justify;
+    
     
 
 }
@@ -77,12 +82,12 @@ footer{
 h2{
     color:#EB5E28;
     margin-right: 3em;
-    font-size: 45px;
+    font-size: 36px;
 }
 
 .container-caixas{
     display:flex;
-    padding: 0 3em 3em 3em;
+    padding: 2em 8em 4em 8em; /* top right bottom left*/
     gap: 5em;
 }
 
@@ -97,7 +102,7 @@ h2{
 
 
 /* top right bottom left*/
-.caixa p, h3, figure{
+.caixa p, .caixa h3, .caixa figure{
     padding: 0.5em 0 0.5em 0;
     
 }
@@ -105,4 +110,74 @@ h2{
 .caixa p{
  
     width: 10em;
+}
+
+.caixa h4{
+    text-align: center;
+}
+
+.container-paragrafos{
+    display: flex;
+    flex-direction: column;
+    padding: 1em 4em 1em 4em;
+    gap:1em;
+    text-align: left;
+    line-height: 30px; 
+    margin-top: 2em;
+    
+}
+
+.container-paragrafos h2, .container-paragrafos h3{
+    margin:0;
+    color:#EB5E28
+}
+
+.container-section-caixas{
+    margin-bottom: 6em;
+}
+
+.container-notas{
+    display: flex;
+    padding: 1em 6em 4em 6em;
+    gap:5em
+
+}
+
+.notas{
+    display: flex;
+    flex-direction: column;
+    border: solid 4px #EB5E28;
+    border-radius: 57px;
+    padding: 2em;
+    text-align: left;
+   
+}
+
+.notas h3{
+    color: #EB5E28;
+    border-bottom: solid 3px black;
+    margin-bottom: 1em;
+    font-size: 24px;
+    margin-left: 0;
+}
+
+.notas p{
+    line-height: 30px; 
+   
+}
+
+.lista{
+    
+    flex-direction: column;
+    list-style:disc;
+    text-align: left;
+    margin: 0;
+    margin-top: 1em;
+
+}
+
+.item-lista{
+   padding: 0 1em 0.5em ; /* top right bottom left*/
+   margin: 0;
+   
 }
