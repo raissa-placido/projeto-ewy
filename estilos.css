@@ -327,4 +327,19 @@ form button{
     align-items: center; /* centralizar horizontalmente*/
     justify-content: center; /*centralizar verticalmente */
 }
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Mínimo de 100% da altura da viewport */
+    margin: 0; /* Remove as margens padrão do body */
+}
+
+.main {
+    flex-grow: 1; /* Faz o main ocupar todo o espaço disponível */
+    /* Outras propriedades de estilo para o conteúdo */
+}
+
+footer {
+    /* Estilos do seu footer, ex: background-color, color, padding, etc. */
+}
 
