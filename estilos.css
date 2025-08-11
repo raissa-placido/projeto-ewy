@@ -249,12 +249,12 @@ form button{
 
 .main-contato, .main-contato article{
     background-color: #b6c0ec;
-    
-}
-
-main{
     height: 100vh;
 }
+
+/* main{
+    height: 100vh;
+} */
 
 .section-contato{
     max-width: 70rem;
