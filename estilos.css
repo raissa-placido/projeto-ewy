@@ -254,6 +254,7 @@ form button{
 
 article{
     height: 100vh;
+    margin: 0 auto;
 } 
 
 .section-contato{
