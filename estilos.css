@@ -327,5 +327,7 @@ form button{
     align-items: center; /* centralizar horizontalmente*/
     justify-content: center; /*centralizar verticalmente */
 }
-
+.como-estudar-principal{
+    height:100vh;
+}
 
