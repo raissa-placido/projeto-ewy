@@ -328,6 +328,6 @@ form button{
     justify-content: center; /*centralizar verticalmente */
 }
 .como-estudar-principal{
-    height:100vh;
+    min-height:100vh;
 }
 
